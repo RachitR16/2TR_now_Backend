@@ -1,0 +1,33 @@
+{
+  "name": "course-project",
+  "version": "1.0.0",
+  "description": "Rachit_Raval_Course_Project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r esm index.js",
+    "start": "node -r esm index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/rachit.raval/course-project.git"
+  },
+  "author": "Rachit_Raval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/rachit.raval/course-project/issues"
+  },
+  "homepage": "https://gitlab.com/rachit.raval/course-project#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "express-jwt-middleware": "^1.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.3",
+    "uuid": "^8.0.0"
+  }
+}
